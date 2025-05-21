@@ -67,6 +67,17 @@ class _MyAppState extends State<MyApp> {
     contatos[index].favorito = !contatos[index].favorito;
   }
 
+   //outra alternativa
+   //int totalFavorite = 0;
+   // void setFavorite(index) {
+   // contatos[index].favorito = !contatos[index].favorito;
+   // if (contatos[index].favorito) {
+   //   totalFavorite++;
+   // } else {
+   //   totalFavorite--;
+   // }
+   // }
+
 }
 
 
